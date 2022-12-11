@@ -1,4 +1,4 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 const App = () => {
 
@@ -29,7 +29,7 @@ const App = () => {
 
       <p> This is also visible! </p>
       <Expenses items={expenses}/>
-      
+
     </div>
   );
 }
